@@ -35,8 +35,6 @@ app.get('/api/garments', function(req, res){
         return true;
     });
 
-    // note that this route just send JSON data to the browser
-    // there is no template
     res.json({ 
         garments : filteredGarments
     });
