@@ -69,6 +69,7 @@ app.post('/api/garments', (req, res) => {
             status: 'error' ,
             message: 'Required data not supplied' ,
         });
+        //garments.find({description,img,gender,season,price})
     }else {
         garments.push({
             description,
