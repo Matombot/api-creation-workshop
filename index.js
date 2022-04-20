@@ -79,7 +79,7 @@ app.post('/api/garments', (req, res) => {
             price
         });
         res.json({
-            status: 'success' ,
+            status: 'success',
             message:'New garment added' ,
 
         });
