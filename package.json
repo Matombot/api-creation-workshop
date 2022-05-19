@@ -1,7 +1,7 @@
 {
   "name": "api-creation-workshop",
   "version": "1.0.0",
-  "description": "In thie workshop we explore how to create an API using ExpressJS.",
+  "description": "In this workshop we explore how to create an API using ExpressJS.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-handlebars": "^6.0.5",
+    "jsonwebtoken": "^8.5.1"
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/Matombot/api-creation-workshop/issues"
   },
-  "homepage": "https://github.com/Matombot/api-creation-workshop#readme"
+  "homepage": "https://github.com/Matombot/api-creation-workshop#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "keywords": []
 }
